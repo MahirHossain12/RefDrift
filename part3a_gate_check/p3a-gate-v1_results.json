@@ -1,0 +1,39 @@
+{
+  "config": {
+    "experiment_id": "p3a-gate-v1",
+    "date": "2026-10-02",
+    "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+    "layer_index": 14,
+    "n_candidate_clients_per_group": 5,
+    "local_steps_candidates": [
+      2,
+      5
+    ],
+    "local_lr": 0.0001,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "n_probe_harmful": 32,
+    "n_probe_harmless": 32,
+    "seed": 42,
+    "torch_dtype": "float16"
+  },
+  "baseline_projection": 5.262246131896973,
+  "benign_scores": [
+    -0.1156005859375,
+    -0.08219528198242188,
+    -0.015668869018554688,
+    -0.049526214599609375,
+    -0.08509683609008789
+  ],
+  "malicious_scores": [
+    -0.254791259765625,
+    -0.2250199317932129,
+    -0.1940469741821289,
+    -0.24208831787109375,
+    -0.2629213333129883
+  ],
+  "local_steps_tested": [
+    2,
+    5
+  ]
+}

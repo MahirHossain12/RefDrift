@@ -1,0 +1,270 @@
+{
+  "malicious_fraction": 0.2,
+  "seed": 42,
+  "malicious_ids": [
+    0,
+    1
+  ],
+  "trajectory": [
+    {
+      "round": 0,
+      "refusal_rate": 0.84375
+    },
+    {
+      "round": 1,
+      "refusal_rate": 0.8125
+    },
+    {
+      "round": 2,
+      "refusal_rate": 0.625
+    },
+    {
+      "round": 3,
+      "refusal_rate": 0.125
+    },
+    {
+      "round": 4,
+      "refusal_rate": 0.15625
+    },
+    {
+      "round": 5,
+      "refusal_rate": 0.1875
+    },
+    {
+      "round": 6,
+      "refusal_rate": 0.1875
+    },
+    {
+      "round": 7,
+      "refusal_rate": 0.125
+    },
+    {
+      "round": 8,
+      "refusal_rate": 0.125
+    },
+    {
+      "round": 9,
+      "refusal_rate": 0.125
+    },
+    {
+      "round": 10,
+      "refusal_rate": 0.0625
+    }
+  ],
+  "weight_log": [
+    {
+      "round": 1,
+      "sampled": [
+        3,
+        5,
+        0
+      ],
+      "scores": [
+        -0.07538700103759766,
+        -0.16013431549072266,
+        -0.5540218353271484
+      ],
+      "threshold": -0.18923664093017578,
+      "included": [
+        3,
+        5
+      ],
+      "excluded": [
+        0
+      ],
+      "n_malicious_sampled": 1
+    },
+    {
+      "round": 2,
+      "sampled": [
+        3,
+        0,
+        5
+      ],
+      "scores": [
+        -0.0667576789855957,
+        -0.2386302947998047,
+        -0.3156290054321289
+      ],
+      "threshold": -0.17304706573486328,
+      "included": [
+        3
+      ],
+      "excluded": [
+        0,
+        5
+      ],
+      "n_malicious_sampled": 1
+    },
+    {
+      "round": 3,
+      "sampled": [
+        6,
+        4,
+        1
+      ],
+      "scores": [
+        -0.23172998428344727,
+        -0.32465219497680664,
+        -0.5393424034118652
+      ],
+      "threshold": -0.18923664093017578,
+      "included": [
+        6
+      ],
+      "excluded": [
+        4,
+        1
+      ],
+      "n_malicious_sampled": 1
+    },
+    {
+      "round": 4,
+      "sampled": [
+        3,
+        5,
+        9
+      ],
+      "scores": [
+        0.08728742599487305,
+        0.08630537986755371,
+        0.12973332405090332
+      ],
+      "threshold": -0.209747314453125,
+      "included": [
+        3,
+        5,
+        9
+      ],
+      "excluded": [],
+      "n_malicious_sampled": 0
+    },
+    {
+      "round": 5,
+      "sampled": [
+        7,
+        6,
+        9
+      ],
+      "scores": [
+        -0.11033034324645996,
+        -0.15215802192687988,
+        -0.1463334560394287
+      ],
+      "threshold": -0.18923664093017578,
+      "included": [
+        7,
+        6,
+        9
+      ],
+      "excluded": [],
+      "n_malicious_sampled": 0
+    },
+    {
+      "round": 6,
+      "sampled": [
+        2,
+        4,
+        9
+      ],
+      "scores": [
+        -0.06094026565551758,
+        -0.17021846771240234,
+        -0.2007455825805664
+      ],
+      "threshold": -0.16013431549072266,
+      "included": [
+        2
+      ],
+      "excluded": [
+        4,
+        9
+      ],
+      "n_malicious_sampled": 0
+    },
+    {
+      "round": 7,
+      "sampled": [
+        3,
+        8,
+        4
+      ],
+      "scores": [
+        0.10994076728820801,
+        -0.06358814239501953,
+        -0.11023998260498047
+      ],
+      "threshold": -0.1651763916015625,
+      "included": [
+        3,
+        8,
+        4
+      ],
+      "excluded": [],
+      "n_malicious_sampled": 0
+    },
+    {
+      "round": 8,
+      "sampled": [
+        9,
+        6,
+        8
+      ],
+      "scores": [
+        -0.020486116409301758,
+        -0.023311376571655273,
+        -0.021515607833862305
+      ],
+      "threshold": -0.15377521514892578,
+      "included": [
+        9,
+        6,
+        8
+      ],
+      "excluded": [],
+      "n_malicious_sampled": 0
+    },
+    {
+      "round": 9,
+      "sampled": [
+        5,
+        3,
+        2
+      ],
+      "scores": [
+        0.019915103912353516,
+        0.10153627395629883,
+        0.010987043380737305
+      ],
+      "threshold": -0.14939796924591064,
+      "included": [
+        5,
+        3,
+        2
+      ],
+      "excluded": [],
+      "n_malicious_sampled": 0
+    },
+    {
+      "round": 10,
+      "sampled": [
+        8,
+        7,
+        1
+      ],
+      "scores": [
+        -0.10895276069641113,
+        -0.09361553192138672,
+        0.013873577117919922
+      ],
+      "threshold": -0.1463334560394287,
+      "included": [
+        8,
+        7,
+        1
+      ],
+      "excluded": [],
+      "n_malicious_sampled": 1
+    }
+  ]
+}

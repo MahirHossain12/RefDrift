@@ -1,0 +1,219 @@
+{
+  "defense": "fedavg",
+  "attack": "cross",
+  "frac": 0.4,
+  "seed": 44,
+  "malicious_ids": [
+    1,
+    6,
+    7,
+    8
+  ],
+  "traj": [
+    0.84375,
+    0.90625,
+    0.90625,
+    0.875,
+    0.75,
+    0.6875,
+    0.625,
+    0.59375,
+    0.53125,
+    0.46875,
+    0.3125
+  ],
+  "jbb0": 0.59375,
+  "jbb_final": 0.21875,
+  "log": [
+    {
+      "round": 1,
+      "sampled": [
+        5,
+        9,
+        1
+      ],
+      "malicious": [
+        false,
+        false,
+        true
+      ],
+      "scores": [],
+      "kept": [
+        5,
+        9,
+        1
+      ]
+    },
+    {
+      "round": 2,
+      "sampled": [
+        3,
+        0,
+        6
+      ],
+      "malicious": [
+        false,
+        false,
+        true
+      ],
+      "scores": [],
+      "kept": [
+        3,
+        0,
+        6
+      ]
+    },
+    {
+      "round": 3,
+      "sampled": [
+        0,
+        7,
+        1
+      ],
+      "malicious": [
+        false,
+        true,
+        true
+      ],
+      "scores": [],
+      "kept": [
+        0,
+        7,
+        1
+      ]
+    },
+    {
+      "round": 4,
+      "sampled": [
+        2,
+        9,
+        0
+      ],
+      "malicious": [
+        false,
+        false,
+        false
+      ],
+      "scores": [],
+      "kept": [
+        2,
+        9,
+        0
+      ]
+    },
+    {
+      "round": 5,
+      "sampled": [
+        9,
+        4,
+        1
+      ],
+      "malicious": [
+        false,
+        false,
+        true
+      ],
+      "scores": [],
+      "kept": [
+        9,
+        4,
+        1
+      ]
+    },
+    {
+      "round": 6,
+      "sampled": [
+        4,
+        1,
+        0
+      ],
+      "malicious": [
+        false,
+        true,
+        false
+      ],
+      "scores": [],
+      "kept": [
+        4,
+        1,
+        0
+      ]
+    },
+    {
+      "round": 7,
+      "sampled": [
+        6,
+        4,
+        2
+      ],
+      "malicious": [
+        true,
+        false,
+        false
+      ],
+      "scores": [],
+      "kept": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "round": 8,
+      "sampled": [
+        8,
+        3,
+        0
+      ],
+      "malicious": [
+        true,
+        false,
+        false
+      ],
+      "scores": [],
+      "kept": [
+        8,
+        3,
+        0
+      ]
+    },
+    {
+      "round": 9,
+      "sampled": [
+        4,
+        7,
+        9
+      ],
+      "malicious": [
+        false,
+        true,
+        false
+      ],
+      "scores": [],
+      "kept": [
+        4,
+        7,
+        9
+      ]
+    },
+    {
+      "round": 10,
+      "sampled": [
+        1,
+        8,
+        5
+      ],
+      "malicious": [
+        true,
+        true,
+        false
+      ],
+      "scores": [],
+      "kept": [
+        1,
+        8,
+        5
+      ]
+    }
+  ]
+}

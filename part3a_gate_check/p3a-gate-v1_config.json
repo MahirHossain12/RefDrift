@@ -1,0 +1,18 @@
+{
+  "experiment_id": "p3a-gate-v1",
+  "date": "2026-10-02",
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "layer_index": 14,
+  "n_candidate_clients_per_group": 5,
+  "local_steps_candidates": [
+    2,
+    5
+  ],
+  "local_lr": 0.0001,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "n_probe_harmful": 32,
+  "n_probe_harmless": 32,
+  "seed": 42,
+  "torch_dtype": "float16"
+}

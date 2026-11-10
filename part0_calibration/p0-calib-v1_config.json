@@ -1,0 +1,11 @@
+{
+  "experiment_id": "p0-calib-v1",
+  "date": "2026-09-27",
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "layer_index": 14,
+  "n_harmful_calib": 32,
+  "n_harmless_calib": 32,
+  "n_harmful_heldout": 32,
+  "seed": 42,
+  "torch_dtype": "float16"
+}

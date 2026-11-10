@@ -1,0 +1,10 @@
+method,malicious_fraction,final_refusal_mean,rounds_to_collapse_mean
+fedavg,0.0,0.109375,8.5
+fedavg,0.2,0.0,4.0
+fedavg,0.4,0.0,2.5
+multi_krum,0.0,0.109375,8.5
+multi_krum,0.2,0.0,4.0
+multi_krum,0.4,0.0,2.5
+trimmed_mean,0.0,0.109375,8.5
+trimmed_mean,0.2,0.0,4.0
+trimmed_mean,0.4,0.0,2.5

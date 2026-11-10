@@ -1,0 +1,32 @@
+{
+  "experiment_id": "p2-baselines-v1",
+  "date": "2026-10-01",
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "n_clients": 10,
+  "clients_per_round": 10,
+  "n_rounds": 10,
+  "local_steps": 2,
+  "local_lr": 0.0001,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "malicious_fractions": [
+    0.0,
+    0.2,
+    0.4
+  ],
+  "aggregation_methods": [
+    "fedavg",
+    "trimmed_mean",
+    "multi_krum"
+  ],
+  "seeds": [
+    42,
+    43
+  ],
+  "n_poison_pairs": 100,
+  "n_eval_heldout": 32,
+  "n_alpaca_benign": 200,
+  "seed": 42,
+  "torch_dtype": "float16",
+  "max_new_tokens_eval": 40
+}
