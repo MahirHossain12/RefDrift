@@ -147,9 +147,9 @@ rate is a proxy, and the exclusion rule drops one participant per round even whe
 ## Citation
 
 ```bibtex
-@misc{mahir2026refdrift,
+@misc{,
   title  = {Behavior over Geometry: Training-Free Refusal-Direction Scoring of Client Updates in Federated LoRA Fine-Tuning},
-  author = {Mahir, Shahriar Hossain},
+  author = {},
   year   = {2026},
   note   = {Manuscript in preparation}
 }
